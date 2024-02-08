@@ -72,7 +72,6 @@ A significant challenge in the widespread adoption of the Automated Certificate 
 
 Specifically, this document registers the URI "/.well-known/acme-keys" at which all compliant service providers can publish their ACME client public keys. This mechanism allows the ACME server to identify the specific service provider, enhancing the trust relationship. Furthermore, it provides flexibility to service providers as they can use multiple keys and rotate them as often as they like, thereby improving security and control over their ACME client configurations while giving CA customers the ability to specifically authorize which service providers can request certificates on their behalf.
 
-
 --- middle
 
 # Conventions and Definitions
