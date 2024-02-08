@@ -23,46 +23,42 @@ venue:
   latest: https://vanbroup.github.io/acme-key-discovery/draft-vanbrouwershaven-acme-key-discovery.html
 
 author:
-  -
-      ins: P. van Brouwershaven
-      name: Paul van Brouwershaven
-      org: Entrust Limited
-      abbrev: Entrust
-      street: 2500 Solandt Road – Suite 100
-      city: Ottawa, Ontario
-      country: Canada
-      code: K2K 3G5
-      email: paul.vanbrouwershaven@entrust.com
-  -
-      ins: M. Ounsworth
-      name: Mike Ounsworth
-      org: Entrust Limited
-      abbrev: Entrust
-      street: 2500 Solandt Road – Suite 100
-      city: Ottawa, Ontario
-      country: Canada
-      code: K2K 3G5
-      email: mike.ounsworth@entrust.com
-  -
-      ins: C. Bonnell
-      name: Corey Bonnell
-      organization: DigiCert, Inc
-      abbrev: DigiCert
-      street:
-      city: Pittsburgh
-      region: PA
-      country: United States of America
-      email: corey.bonnell@digicert.com
-   -
-      ins: I.Barreira
-      name: Iñigo Barreira
-      org: Sectigo (Europe) SL
-      abbrev: Sectigo
-      street: Rambla Catalunya 86, 3 1. 08008 Barcelona.
-      city: Barcelona
-      country: Spain
-      code: 08008
-      email: inigo.barreira@sectigo.com
+  - ins: P. van Brouwershaven
+    name: Paul van Brouwershaven
+    org: Entrust Limited
+    abbrev: Entrust
+    street: 2500 Solandt Road – Suite 100
+    city: 'Ottawa, Ontario'
+    country: Canada
+    code: K2K 3G5
+    email: paul.vanbrouwershaven@entrust.com
+  - ins: M. Ounsworth
+    name: Mike Ounsworth
+    org: Entrust Limited
+    abbrev: Entrust
+    street: 2500 Solandt Road – Suite 100
+    city: 'Ottawa, Ontario'
+    country: Canada
+    code: K2K 3G5
+    email: mike.ounsworth@entrust.com
+  - ins: C. Bonnell
+    name: Corey Bonnell
+    organization: 'DigiCert, Inc'
+    abbrev: DigiCert
+    street: null
+    city: Pittsburgh
+    region: PA
+    country: United States of America
+    email: corey.bonnell@digicert.com
+  - ins: I.Barreira
+    name: Iñigo Barreira
+    org: Sectigo (Europe) SL
+    abbrev: Sectigo
+    street: 'Rambla Catalunya 86, 3 1. 08008 Barcelona.'
+    city: Barcelona
+    country: Spain
+    code: 08008
+    email: inigo.barreira@sectigo.com
 
 normative:
   RFC8555:
