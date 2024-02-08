@@ -63,7 +63,6 @@ normative:
   RFC8555:
 
 informative:
-  RFC8657:
   RFC5785:
   I-D.vanbrouwershaven-acme-auto-discovery:
 
