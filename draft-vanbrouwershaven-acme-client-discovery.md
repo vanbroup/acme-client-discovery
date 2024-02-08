@@ -45,7 +45,6 @@ author:
     name: Corey Bonnell
     organization: 'DigiCert, Inc'
     abbrev: DigiCert
-    street: null
     city: Pittsburgh
     region: PA
     country: United States of America
@@ -70,7 +69,7 @@ informative:
 
 --- abstract
 
-A significant challenge in the widespread adoption of the Automated Certificate Management Environment (ACME) [RFC8555] is the trust establishment between ACME servers and clients. While ACME clients can automatically discover the URL of the ACME server through ACME Auto Discovery [draft-vanbrouwershaven-acme-key-discovery], they face difficulty in identifying authorized clients. This draft proposes a solution to this problem by allowing Certification Authority (CA) customers to specify which ACME keys are authorized to request certificates on their behalf by simply providing the domain name of the service provider.
+A significant challenge in the widespread adoption of the Automated Certificate Management Environment (ACME) [RFC8555] is the trust establishment between ACME servers and clients. While ACME clients can automatically discover the URL of the ACME server through ACME Auto Discovery {{I-D.vanbrouwershaven-acme-auto-discovery}}, they face difficulty in identifying authorized clients. This draft proposes a solution to this problem by allowing Certification Authority (CA) customers to specify which ACME keys are authorized to request certificates on their behalf by simply providing the domain name of the service provider.
 
 Specifically, this document registers the URI "/.well-known/acme-keys" at which all compliant service providers can publish their ACME client public keys. This mechanism allows the ACME server to identify the specific service provider, enhancing the trust relationship. Furthermore, it provides flexibility to service providers as they can use multiple keys and rotate them as often as they like, thereby improving security and control over their ACME client configurations while giving CA customers the ability to specifically authorize which service providers can request certificates on their behalf.
 
@@ -83,7 +82,7 @@ Specifically, this document registers the URI "/.well-known/acme-keys" at which 
 
 # Introduction {#sec-intro}
 
-The Automated Certificate Management Environment (ACME) [RFC8555] has been instrumental in streamlining the process of certificate issuance and validation. However, a significant challenge that hinders its widespread adoption is the establishment of trust between ACME servers and clients. While ACME clients can automatically discover the URL of the ACME server through ACME Auto Discovery [draft-vanbrouwershaven-acme-key-discovery], identifying authorized clients remains a complex task.
+The Automated Certificate Management Environment (ACME) [RFC8555] has been instrumental in streamlining the process of certificate issuance and validation. However, a significant challenge that hinders its widespread adoption is the establishment of trust between ACME servers and clients. While ACME clients can automatically discover the URL of the ACME server through ACME Auto Discovery {{I-D.vanbrouwershaven-acme-auto-discovery}}, identifying authorized clients remains a complex task.
 
 This document proposes a solution to this problem by introducing a mechanism that allows Certification Authority (CA) customers to specify which ACME keys are authorized to request certificates on their behalf. This is achieved by simply providing the domain name of the service provider.
 
