@@ -97,7 +97,7 @@ Moreover, this mechanism empowers CA customers by giving them the ability to spe
 3. The ACME client `client.example` registers its key at `server.example`, which will only succeed if any of the customers have authorized `client.example`.
 4. The ACME client `client.example` makes an ACME request to the ACME server from `server.example` for domain `customer.example`.
 5. Based on the domain `customer.example` the ACME server `server.example` authenticates the ACME client against the known public keys of the service providers that the customer has authorized.
-6. The ACME client continues normal operation according to [RFC8555]. 
+6. The ACME client continues normal operation according to [RFC8555].
 
 ~~~ aasvg
 +----------------+     +----------------+     +----------------+
