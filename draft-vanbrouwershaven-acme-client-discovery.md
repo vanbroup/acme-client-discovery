@@ -9,18 +9,18 @@ number:
 date:
 consensus: true
 v: 3
-area: SEC
-workgroup: ACME
+area: "Security"
+workgroup: "Automated Certificate Management Environment"
 keyword:
  - ACME
  - Auto-discovery
 venue:
-  group: ACME
-  type: Working Group
-  mail: acme@ietf.org
-  arch: https://datatracker.ietf.org/wg/acme/about/
-  github: vanbroup/acme-key-discovery
-  latest: https://vanbroup.github.io/acme-key-discovery/draft-vanbrouwershaven-acme-key-discovery.html
+  group: "Automated Certificate Management Environment"
+  type: "Working Group"
+  mail: "acme@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/acme/"
+  github: "vanbroup/acme-client-discovery"
+  latest: "https://vanbroup.github.io/acme-client-discovery/draft-vanbrouwershaven-acme-client-discovery.html"
 
 author:
   - ins: P. van Brouwershaven
