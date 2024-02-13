@@ -58,6 +58,15 @@ author:
     country: Spain
     code: 08008
     email: inigo.barreira@sectigo.com
+  - ins: Q Misell
+    name: Q Misell
+    org: AS207960 Cyfyngedig
+    abbrev: AS207960
+    street: 13 Pen-y-lan Terrace
+    city: Caerdydd
+    country: Cymru
+    code: CF23 9EU
+    email: q@as207960.net
 
 normative:
   RFC8555:
